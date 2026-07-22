@@ -5,8 +5,8 @@ A full-stack Todo application built with React, Node.js/Express, and PostgreSQL 
 ## Architecture
 
 ┌─────────────┐ ┌─────────────┐ ┌──────────────┐
-│ Frontend │────▶│ Backend │────▶│ Database │
-│ React+Nginx │ │Node/Express │ │ PostgreSQL │
+│ Frontend │────▶│ Backend │────▶│ Database   │
+│ React+Nginx │ │Node/Express │ │ PostgreSQL   │
 │ Port 3000 │◀────│ Port 5000 │◀────│ Port 5432 │
 └─────────────┘ └─────────────┘ └──────────────┘
 All connected via a custom Docker bridge network
