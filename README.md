@@ -44,7 +44,7 @@ Three independent containers communicate over a custom Docker network. The front
 ### Run the app
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Maruthi66688/todo-app-docker
 cd todo-app
 docker-compose up --build
 ```
